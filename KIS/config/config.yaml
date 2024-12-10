@@ -1,0 +1,10 @@
+# 1. config/config.yaml
+#yaml
+# 기존 config 파일과 동일
+
+APP_KEY: your_app_key
+APP_SECRET: your_app_secret
+CANO: your_account_number
+ACNT_PRDT_CD: your_product_code
+DISCORD_WEBHOOK_URL: your_discord_webhook_url
+URL_BASE: https://openapi.xyz.com

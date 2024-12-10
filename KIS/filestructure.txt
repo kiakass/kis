@@ -1,0 +1,27 @@
+korea_stock_auto_trade/
+│
+├── config/
+│   └── config.yaml          # 설정 파일
+│
+├── services/
+│   ├── __init__.py
+│   ├── authentication.py     # AuthenticationService
+│   ├── notification.py       # NotificationService
+│   ├── stock_info.py         # StockInfoService
+│   ├── account.py            # AccountService
+│   └── trading.py            # TradingService
+│
+├── models/
+│   ├── __init__.py
+│   └── stock_config.py       # StockConfig 클래스
+│
+├── strategies/
+│   ├── __init__.py
+│   └── volatility_breakout.py  # 변동성 돌파 전략 관련 로직
+│
+├── utils/
+│   ├── __init__.py
+│   └── error_handler.py      # 공통 예외 처리 유틸리티
+│
+├── main.py                   # AutoTradeBot 메인 실행 스크립트
+└── requirements.txt          # 의존성 관리

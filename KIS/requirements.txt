@@ -1,0 +1,5 @@
+# 8. requirements.txt
+#
+requests==2.26.0
+pyyaml==6.0
+#
