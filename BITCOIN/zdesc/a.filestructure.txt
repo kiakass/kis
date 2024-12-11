@@ -1,0 +1,29 @@
+crypto_trading_bot/
+│
+├── config/
+│   ├── __init__.py
+│   ├── config_manager.py          # 설정 관리
+│   └── env_loader.py              # 환경 변수 로딩
+│
+├── exchanges/
+│   ├── __init__.py
+│   └── upbit_exchange.py          # Upbit 거래소 인터페이스
+│
+├── trading/
+│   ├── __init__.py
+│   ├── strategy.py                # 트레이딩 전략
+│   ├── decision_maker.py          # 매매 결정 로직
+│   └── trade_executor.py          # 실제 거래 실행
+│
+├── data/
+│   ├── __init__.py
+│   ├── data_fetcher.py            # 시세 데이터 수집
+│   └── indicator_calculator.py    # 보조 지표 계산
+│
+├── logging/
+│   ├── __init__.py
+│   ├── database_logger.py         # 데이터베이스 로깅
+│   └── performance_tracker.py     # 성과 추적
+│
+├── scheduler.py                   # 스케줄러 관리
+└── main.py                        # 메인 실행 스크립트
